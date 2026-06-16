@@ -1,0 +1,6 @@
+{
+  "name": "FIFA World Cup 2026",
+  "description": "Premium world cup streaming portal featuring dynamic M3U8/TS stream player, live chat simulator, interactive predictions, and official group schedules.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
