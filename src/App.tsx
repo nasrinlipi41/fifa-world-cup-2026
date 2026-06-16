@@ -38,9 +38,7 @@ export default function App() {
         const rawData = await response.json();
         
         setChannels(rawData);
-        // Default to BeIN Sports if available, otherwise first
-        const bein = rawData.find((c: Channel) => c.name.toLowerCase().includes('bein'));
-        setSelectedChannel(bein || rawData[0]);
+        setSelectedChannel(rawData[0]);
       } catch (err) {
         console.warn('CORS or network blockage fetching GitHub data, fallback triggered.');
         // Fully populated fallback database matching original streams from channels.json
@@ -63,7 +61,7 @@ export default function App() {
         ];
         
         setChannels(fallbackDatabase);
-        setSelectedChannel(fallbackDatabase[1]); // Default to Bein Sports (plays index.m3u8 reliably)
+        setSelectedChannel(fallbackDatabase[0]); // Always default to the first channel
       } finally {
         setIsLoadingChannels(false);
       }
