@@ -32,7 +32,7 @@ export default function App() {
     const fetchLiveFeeds = async () => {
       setIsLoadingChannels(true);
       try {
-        const response = await fetch('https://raw.githubusercontent.com/nasrinlipi41/wc26/refs/heads/main/channels.json');
+        const response = await fetch('https://raw.githubusercontent.com/nasrinlipi41/fifa-world-cup-2026/refs/heads/main/channels.json');
         if (!response.ok) throw new Error('Dynamic endpoint offline');
         
         const rawData = await response.json();
