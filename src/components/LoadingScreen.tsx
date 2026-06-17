@@ -79,7 +79,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
             alt="FIFA World Cup 2026 Logo"
             className="w-40 sm:w-48 h-auto object-contain filter drop-shadow-[0_10px_20px_rgba(16,185,129,0.2)]"
           />
-          <span className="absolute -bottom-2 px-3 py-1 bg-gradient-to-r from-emerald-500 to-emerald-600 text-[10px] font-sans font-extrabold text-neutral-950 tracking-widest rounded-full uppercase shadow-md animate-bounce">
+          <span className="absolute -bottom-6 px-3 py-1 bg-gradient-to-r from-emerald-500 to-emerald-600 text-[10px] font-sans font-extrabold text-neutral-950 tracking-widest rounded-full uppercase shadow-md animate-pulse">
             Official Streaming Portal
           </span>
         </div>
@@ -119,7 +119,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
         <div className="flex items-center gap-4 text-[10px] text-neutral-500 font-mono border-t border-neutral-900 pt-4 w-full justify-center">
           <span className="flex items-center gap-1"><Trophy className="w-3.5 h-3.5 text-yellow-500" /> USA • CAN • MEX</span>
           <span>•</span>
-          <span className="text-emerald-400">1080P UHD FEED</span>
+          <span className="text-emerald-400">LIVE HIGH SPEED FEED</span>
         </div>
       </div>
     </div>
