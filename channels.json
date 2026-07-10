@@ -1,5 +1,10 @@
 [
   {
+  "name": "SOCO Live",
+  "logo": "https://scontent.fdac20-1.fna.fbcdn.net/v/t39.30808-6/299192996_113079011508839_7710931669538173286_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s1000x1000&_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEwU6LHPpQ5pTN2HqzteGyUDY6xo0i-W3YNjrGjSL5bdtKpr8s_rvuNKMd0mPDJ8_WJPgHXfRrJD7f3Caaw6F4J&_nc_ohc=xvet7JD7o00Q7kNvwFZbA5A&_nc_oc=AdqnPcMbt66MeLuKYl883miC7CsTgzSSjWmHIwLEACA8fPbMHb0pujPpn-gQk_Wa-kk&_nc_zt=23&_nc_ht=scontent.fdac20-1.fna&_nc_gid=-eg9FWqKTYg18cvYj6lQMw&_nc_ss=7b2a8&oh=00_AQDvM21w52IvdBU9qOJInM8ERCHm4l3IdjzHDqq6cRzl_Q&oe=6A573362",
+  "url": "https://pull.niues.live/live/stream-9912060_lhd.m3u8?auth_key=1783284383-0-0-ba541e77b9330eab42075af6aa5029e4"
+  },
+  {
     "name": "TSN Sports SD",
     "logo": "https://thesportsgen.com/wp-content/uploads/2023/04/How-to-watch-sports-on-TSN-750x536.jpg",
     "url": "https://bfiaawagaalygikasqdk.supabase.co/functions/v1/swift-api?url=Q09k4OukERocGAoHOgzAFRoTLpNBoOWhojWRopWkQVbmFk6nI0zf&headers=3OvT47zfFUIJq1aKE0_Cz1akI_a8LGB8ECzkI9g3osynd_anIGo3qMBh4RI3r9qvzjasEhukI51JH7I8qjuRIREmFk6nI0zfysfjEU1hqGq_9jv2"
